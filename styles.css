@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+button,
+input,
+select,
+textarea{
+  font-family: 'Times New Roman', Times, sans-serif;
+}
+
+body{
+  margin: 0 auto;
+  max-width: 1920px;
+  display: flexbox;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f7f7ff;
+  align-items: center;
+}
+
+header{
+  height: 150px;
+  display: flex;
+  background-color: rgb(213, 224, 235);
+  max-width: 1920px;
+  margin: 0 auto;
+  border: solid rgba(180, 168, 168, 0.233) 8px;
+}
+
+header #navbar{
+  display: flex;
+  margin: 0 auto;
+  max-width: 1920px;
+  align-items: center;
+}
+
+header #navbar .nav-list{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  text-decoration: none;
+  gap: 250px;
+}
+
+header #navbar .nav-list .nav-item a{
+  font-size: 40px;
+  text-decoration: none;
+}
+header #navbar .nav-list .nav-item a:hover{
+  font-weight: bolder;
+  transition: 1;
+}
+
+/*estilizaando main*/
+main{
+  display: flex;
+  margin: 0 auto;
+}
+#container .container-banner {
+  padding: 100PX;
+  width: 1920px;
+  display: flex;
+  background-color: rgba(213, 224, 235, 0.637);
+  border: solid rgba(180, 168, 168, 0.233) 8px;
+  height: 1800px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50PX;
+  
+}
+
+#container .container-banner div {
+  height: 1400px;
+  background-color: rgba(235, 213, 223, 0.555);
+  width: 700px;
+  border-radius: 30px;
+  padding: 60px;
+  padding-top: 150px;
+  margin-left: 50px;
+  margin-right: 50px;  
+}
+
+#container .container-banner div h1{
+  font-size: 90px;
+}
+
+#container .container-banner div h2{
+  font-weight: 100;
+  font-size: 45px;
+ 
+}
+
+#container .container-banner .div2{
+  display: flex;
+  margin-left: 10px;
+  width: 700px;
+ 
+}
+
+#container .container-banner img{
+  margin: 0 auto;
+  width: 500px;
+  height: 1100px;
+  border-radius: 30px;
+}  
+
+
+/*extilizando o footer da pagina*/
+footer{
+  align-items: center;
+  height: 150px;
+  border: solid rgba(180, 168, 168, 0.233) 8px;
+  background-color: rgb(213, 224, 235);
+  max-width: 1920px;
+  margin: auto;
+  bottom: 0;
+  
+}
+
+footer div{
+  padding-top: 35px;
+  padding: auto 460px;
+  display: flex;
+  width: 600px;
+  font-size: 50px;
+  margin: 0 auto;
+ 
+}

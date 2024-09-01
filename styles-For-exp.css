@@ -1,0 +1,192 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+button,
+input,
+select,
+textarea{
+  font-family: 'Times New Roman', Times, sans-serif;
+}
+
+header{
+  height: 150px;
+  display: flex;
+  background-color: rgb(213, 224, 235);
+  max-width: 1920px;
+  margin: 0 auto;
+  border: solid rgba(180, 168, 168, 0.233) 8px;
+}
+
+
+header #navbar{
+  display: flex;
+  margin: 0 auto;
+  max-width: 1920px;
+  align-items: center;
+}
+
+
+header #navbar .nav-list{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  text-decoration: none;
+  gap: 250px;
+}
+
+header #navbar .nav-list .nav-item a{
+  font-size: 40px;
+  text-decoration: none;
+}
+header #navbar .nav-list .nav-item a:hover{
+  font-weight: bolder;
+  transition: 1;
+}
+
+
+/*estilando a primeira section da main*/
+main{
+  margin: 0 auto;
+  width: 1920px;
+  background-color: rgba(213, 224, 235, 0.637);
+}
+
+main #container{
+  padding: 50px 50px;
+  width: 1920px;
+  height: 1600px;
+  border: solid rgba(180, 168, 168, 0.233) 8px;
+}
+
+main #container div{
+  display: flex;
+  width: 1200px;
+  align-items: center;
+  margin:  60px 380px;
+  padding: 20px 20px;
+  gap: 80px;
+  margin-bottom: 30px;
+  background-color: rgba(235, 213, 223, 0.555);
+  border: solid rgba(180, 168, 168, 0.233) 8px;
+  border-radius: 20px;
+}
+main #container div:hover{
+  border: solid rgba(94, 87, 87, 0.233) 8px;
+  background-color: rgba(213, 224, 235, 0.637);
+}
+
+main #container h1{
+  height: 100px;
+  padding: 40px;
+  font-size: 60px;
+}
+
+main #container div img{ 
+  width: 400px;
+}
+main #container div p{
+  font-size: 50px;
+}
+main #container div .img2{
+  width: 400px;
+}
+main #container .item2{
+  gap: 185px;
+}
+main #container .item3{
+  gap: 220px;
+}
+/*estilando a segunda section da main*/
+
+main #container-exp{
+  padding: 50px 50px;
+  width: 1920px;
+  height: 2200px;
+  border: solid rgba(180, 168, 168, 0.233) 8px;
+}
+
+main #container-exp div{
+  display: flex;
+  width: 1200px;
+  align-items: center;
+  margin:  60px 380px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 80px;
+  margin-bottom: 30px;
+  border: solid rgba(180, 168, 168, 0.233) 8px;
+  border-radius: 20px;
+  background-color: rgba(235, 213, 223, 0.555);
+}
+
+main #container-exp div:hover{
+  border: solid rgba(94, 87, 87, 0.233) 8px;
+  background-color: rgba(213, 224, 235, 0.637);
+}
+
+
+
+
+main #container-exp h1{
+  padding: 30px;
+  width: 450px;
+  height: 170px;
+  font-size: 60px;
+}
+
+main #container-exp div img{
+  margin-right: 30px;
+  width: 400px;
+}
+main #container-exp div p{
+  padding: 20px;
+  height: 250px;
+  width: 1000px;
+  font-size: 50px;
+}
+
+main #container-exp div .img1{
+  width: 300px;
+}
+main #container-exp div .img2{
+  width: 400px;
+}
+main #container-exp div .img3{
+  width: 400px;
+}
+main #container-exp .item1{
+  gap: 185px;
+}
+main #container-exp .item2{
+  gap: 185px;
+}
+main #container-exp .item3{
+  gap: 220px;
+}
+
+/*estilizando footer*/
+footer{
+  align-items: center;
+  height: 150px;
+  border: solid rgba(180, 168, 168, 0.233) 8px;
+  background-color: rgb(213, 224, 235);
+  max-width: 1920px;
+  margin: auto;
+  bottom: 0;
+  
+}
+
+footer div{
+  padding-top: 35px;
+  padding: auto 460px;
+  display: flex;
+  width: 600px;
+  font-size: 50px;
+  margin: 0 auto;
+ 
+}
+
